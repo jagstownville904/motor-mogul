@@ -1,15 +1,23 @@
-MOGUL MOTORS v0.3.21 — INSTALLATION
+MOGUL MOTORS v0.3.22 — Jacksonville 1975
 
-1. EXPORT YOUR SAVE from Books in the existing game. Keep the JSON file safe.
-2. On your GitHub repository jagstownville904/motor-mogul, replace index.html with the one in this package.
-3. Upload the included images/ and portraits/ directories (retain folder names).
-4. Wait for GitHub Pages to publish, then reload the same site URL.
-5. Use the same browser and same site URL to retain localStorage save progress.
+Install: Upload index.html and the entire images/ and portraits/ directories to the root of your GitHub Pages repository. Keep directory names and filenames unchanged. This ZIP contains everything required.
 
-Do not delete your browser data or change site origin. The save key remains motorMogul1975_v01.
-No automatic cloud sync is provided. The exported JSON is a backup, not yet an in-game import mechanism.
+Before installing: In v0.3.21, open Books -> Export Save File. Keep the downloaded JSON as a backup.
 
-Implemented: Mogul Motors rebrand, illustrated HQ and existing period imagery, dealer-only Wednesday live auction with variable markets and dealer buyout quotes, weekly advance with auction stops, negotiation fixes, 15-space lot upgrade, expanded Books deal table, high-mileage grading cap and select repair price adjustments.
-Planned (NOT implemented): marketing, Speed Shops, drag strips, 10-year competitor net-worth championship, multi-location ownership.
+IMPORTANT: This release preserves localStorage key motorMogul1975_v01 and save version 1. Existing saves load automatically in the SAME browser and on the SAME site origin. Do not clear Firefox website data.
 
+What's new:
+- Approved illustrated Mogul Motors masthead.
+- Dealership landing page with separate Sales and Management screens. Naming, expansion, relocation and operating snapshot are in Management.
+- Buyer negotiations are more resistant, with stronger risk of walking away when counteroffers are unrealistic.
+- Wholesale rivals now open bids, counter more frequently and track their own cash, inventory slots and preferences.
+- 7 new AI-illustrated vehicle thumbnail images for Road Runner, Coronet, Dart, Corona, Charger, F-100 and Scout II; other unpictured models use clean generic vehicle silhouettes instead of emojis. Artwork is illustrative, not historical vehicle photography.
+- Varied mileage on newly generated vehicles; preexisting vehicle mileages are preserved.
+- Dynamic price-guide year; correct Dealer Exchange acquisition label.
+- Net worth at cost and estimated asset net worth shown separately; no speculative business goodwill.
+- Dealership relocation retains 15-space expansion and increased rent.
+- Deal-agreed panel displays projected gross deal profit.
+- Deal ledger now tracks holding time and source on newly completed sales. Historical records without those fields remain blank.
+
+This is a balancing update, not yet the AI empire championship or automated employee system.
 Lost Keys Development
