@@ -1,23 +1,11 @@
-MOGUL MOTORS v0.3.22 — Jacksonville 1975
+Mogul Motors v0.3.23b — Multi-source dealership procurement
 
-Install: Upload index.html and the entire images/ and portraits/ directories to the root of your GitHub Pages repository. Keep directory names and filenames unchanged. This ZIP contains everything required.
+Export your save before updating. Replace index.html in the existing GitHub Pages repository; keep all image folders. Browser save key is unchanged.
 
-Before installing: In v0.3.21, open Books -> Export Save File. Keep the downloaded JSON as a backup.
+Dealership > Management > Employment Office > Vehicle Purchasing Policies: keep automatic purchasing authorized and explicitly enable Public auction, Classifieds and Auto Trader. Save policies. Existing wholesale authorization remains intact; the new sources default off.
 
-IMPORTANT: This release preserves localStorage key motorMogul1975_v01 and save version 1. Existing saves load automatically in the SAME browser and on the SAME site origin. Do not clear Firefox website data.
+A single weekly budget resets Wednesday, covering all automatic acquisition channels and auction fees. Target stock, per-vehicle maximum, cash reserve and estimated profit are respected. Manager scans private listings daily and participates in the existing Saturday sealed-bid and Wednesday wholesale auctions. Manual auction lanes are not taken over. Private negotiation uses a separate automated three-round seller simulation. Prepared cars can be listed at a faster rate. Sales behavior is unchanged. Estimates do not guarantee realized profit or full inventory.
 
-What's new:
-- Approved illustrated Mogul Motors masthead.
-- Dealership landing page with separate Sales and Management screens. Naming, expansion, relocation and operating snapshot are in Management.
-- Buyer negotiations are more resistant, with stronger risk of walking away when counteroffers are unrealistic.
-- Wholesale rivals now open bids, counter more frequently and track their own cash, inventory slots and preferences.
-- 7 new AI-illustrated vehicle thumbnail images for Road Runner, Coronet, Dart, Corona, Charger, F-100 and Scout II; other unpictured models use clean generic vehicle silhouettes instead of emojis. Artwork is illustrative, not historical vehicle photography.
-- Varied mileage on newly generated vehicles; preexisting vehicle mileages are preserved.
-- Dynamic price-guide year; correct Dealer Exchange acquisition label.
-- Net worth at cost and estimated asset net worth shown separately; no speculative business goodwill.
-- Dealership relocation retains 15-space expansion and increased rent.
-- Deal-agreed panel displays projected gross deal profit.
-- Deal ledger now tracks holding time and source on newly completed sales. Historical records without those fields remain blank.
+Initial suggested settings if affordable: target 15, weekly budget $8,000–$10,000, maximum $1,800, reserve $7,500, projected profit $200–$300. Review actual profitability and adjust. Test one week before longer advances.
 
-This is a balancing update, not yet the AI empire championship or automated employee system.
-Lost Keys Development
+Validation: JavaScript syntax and 25 simulated 28-day runs with mocked browser APIs; all four acquisition sources observed and budget/capacity/deal limits checked. No live browser or actual player save test. Not deployed.
